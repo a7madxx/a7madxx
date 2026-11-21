@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" fill="none" role="img" aria-label="Ahmed Kamal — QA Automation Engineer and SDET">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0D1117" />
+      <stop offset="100%" stop-color="#111722" />
+    </linearGradient>
+    <radialGradient id="ambientGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(955 150) rotate(90) scale(210 340)">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.14" />
+      <stop offset="55%" stop-color="#3FB950" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#0D1117" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="accentLine" x1="72" y1="0" x2="260" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#3FB950" />
+      <stop offset="100%" stop-color="#58A6FF" stop-opacity="0.15" />
+    </linearGradient>
+    <pattern id="dotGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="12" r="1" fill="#30363D" fill-opacity="0.55" />
+    </pattern>
+    <clipPath id="outerClip">
+      <rect x="1" y="1" width="1198" height="298" rx="16" />
+    </clipPath>
+    <clipPath id="terminalClip">
+      <rect x="770" y="48" width="366" height="204" rx="12" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#outerClip)">
+    <rect x="1" y="1" width="1198" height="298" rx="16" fill="url(#bgGrad)" />
+    <rect x="1" y="1" width="1198" height="298" rx="16" fill="url(#dotGrid)" />
+    <rect x="1" y="1" width="1198" height="298" rx="16" fill="url(#ambientGlow)" />
+
+    <!-- Eyebrow Pill -->
+    <rect x="72" y="46" width="334" height="28" rx="14" fill="#161B22" stroke="#30363D" stroke-width="1" />
+    <circle cx="90" cy="60" r="7" fill="#3FB950" fill-opacity="0.2" />
+    <circle cx="90" cy="60" r="3.5" fill="#3FB950" />
+    <text x="106" y="64" fill="#C9D1D9" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="600" letter-spacing="1.1">QA AUTOMATION · SDET · AI TESTING</text>
+
+    <!-- Main Title & Subtitle -->
+    <text x="72" y="138" fill="#F0F6FC" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="46" font-weight="700" letter-spacing="-0.8">Ahmed Kamal</text>
+    <text x="72" y="176" fill="#8B949E" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="17.5" font-weight="500">Building resilient UI &amp; API test frameworks and AI-assisted QA pipelines.</text>
+
+    <!-- Subtle Accent Rule -->
+    <rect x="72" y="204" width="188" height="2" rx="1" fill="url(#accentLine)" />
+
+    <!-- Bottom Metadata Row -->
+    <text x="72" y="236" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="13" font-weight="500">
+      <tspan fill="#58A6FF">@a7madxx</tspan>
+      <tspan fill="#484F58">  ·  </tspan>
+      <tspan fill="#C9D1D9">Mansoura, Egypt</tspan>
+      <tspan fill="#484F58">  ·  </tspan>
+      <tspan fill="#8B949E">Java · Python · TypeScript</tspan>
+    </text>
+
+    <!-- Miniature Terminal / Test-Runner Card -->
+    <g clip-path="url(#terminalClip)">
+      <rect x="770" y="48" width="366" height="204" rx="12" fill="#161B22" />
+      <rect x="770" y="48" width="366" height="34" fill="#1F2630" />
+      <line x1="770" y1="82" x2="1136" y2="82" stroke="#30363D" stroke-width="1" />
+
+      <!-- Window Controls -->
+      <circle cx="790" cy="65" r="4.5" fill="#FF5F56" />
+      <circle cx="806" cy="65" r="4.5" fill="#FFBD2E" />
+      <circle cx="822" cy="65" r="4.5" fill="#27C93F" />
+      <text x="953" y="69" text-anchor="middle" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="500">test-suite.run</text>
+
+      <!-- Command Line -->
+      <text x="790" y="109" fill="#E6EDF3" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="12" font-weight="500">
+        <tspan fill="#3FB950">$</tspan>
+        <tspan> mvn test &amp;&amp; pytest --ai-qa</tspan>
+      </text>
+
+      <!-- Suite Status Rows -->
+      <text x="790" y="139" fill="#3FB950" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="700">✓</text>
+      <text x="808" y="139" fill="#F0F6FC" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="600">UI Suite</text>
+      <text x="882" y="139" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">Selenium + POM</text>
+      <text x="1116" y="139" text-anchor="end" fill="#3FB950" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="700">PASS</text>
+
+      <text x="790" y="164" fill="#3FB950" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="700">✓</text>
+      <text x="808" y="164" fill="#F0F6FC" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="600">API Suite</text>
+      <text x="882" y="164" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">RestAssured + Newman</text>
+      <text x="1116" y="164" text-anchor="end" fill="#3FB950" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="700">PASS</text>
+
+      <text x="790" y="189" fill="#58A6FF" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="700">✓</text>
+      <text x="808" y="189" fill="#F0F6FC" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="600">AI Agent</text>
+      <text x="882" y="189" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5">FastAPI + Playwright</text>
+      <text x="1116" y="189" text-anchor="end" fill="#58A6FF" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11.5" font-weight="700">READY</text>
+
+      <!-- Terminal Footer Pill -->
+      <rect x="788" y="210" width="330" height="27" rx="6" fill="#0D1117" stroke="#21262D" stroke-width="1" />
+      <text x="953" y="227" text-anchor="middle" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" font-weight="500">Quality engineered from commit to release.</text>
+    </g>
+    <rect x="770" y="48" width="366" height="204" rx="12" stroke="#30363D" stroke-width="1" />
+  </g>
+
+  <rect x="1" y="1" width="1198" height="298" rx="16" stroke="#30363D" stroke-width="1.5" />
+</svg>
